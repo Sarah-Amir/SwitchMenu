@@ -4,6 +4,7 @@ public class SwitchOperatedTextMenu {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// print menu
+		System.out.println("**Welcome to Menu**");
 		for (int i = 1; i <= 3; i++)
 			System.out.println(i + ". Menu item #" + i);
 		System.out.println("0. Quit");
